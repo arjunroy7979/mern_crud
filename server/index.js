@@ -9,13 +9,7 @@ const hostName = '127.0.0.8'
 
 app.use(express.json())
 app.use(express.urlencoded())
-app.use(cors(
-    {
-        origin:["*"],
-        method:["POST","GET"],
-        credentials:true
-    }
-))
+app.use(cors())
 
 
 app.use("/", userRoutes);
