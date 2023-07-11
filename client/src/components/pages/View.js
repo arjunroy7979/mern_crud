@@ -12,7 +12,7 @@ const View = () => {
   }, [id])
 
   const getsingleUser = async (id) => {
-    const response = await axios.get(`http://127.0.0.8:8080/user/${id}`);
+    const response = await axios.get(`https://mern-crud-api-eta.vercel.app/user/${id}`);
     if (response.status === 200) {
       setUser({ ...response.data[0] })
     }
