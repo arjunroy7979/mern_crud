@@ -1,0 +1,142 @@
+[
+    {
+        "name": "India",
+        "states": [
+            {
+                "name": "Bihar",
+                "cities": [
+                    "Harnaut",
+                    "Bihar-sharif"
+                ]
+            },
+            {
+                "name": "Jharkhand",
+                "cities": [
+                    "Ranchi",
+                    "Lohardaga"
+                ]
+            },
+            {
+                "name": "Delhi",
+                "cities": [
+                    "Central Delhi",
+                    "East Delhi",
+                    "New Delhi"
+                ]
+            },
+            {
+                "name": "Chattisgarh",
+                "cities": [
+                    "Bilaspur",
+                    "Durg",
+                    "Bijapur"
+                ]
+            },
+            {
+                "name": "Karnataka",
+                "cities": [
+                    "Bagalkot",
+                    "Bangalore",
+                    "Bangalore Rural"
+                ]
+            },
+            {
+                "name": "Maharashtra",
+                "cities": [
+                    "Ahmed Nagar",
+                    "Akola",
+                    "Amravati",
+                    "Aurangabad"
+                ]
+            },
+            {
+                "name": "Haryana",
+                "cities": [
+                    "Ambala",
+                    "Bhiwani",
+                    "Faridabad",
+                    "Fatehabad"
+                ]
+            },
+            {
+                "name": "Odisha",
+                "cities": [
+                    "Balangir",
+                    "Baleswar",
+                    "Bargarh",
+                    "Cuttack"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "United States",
+        "states": [
+            {
+                "name": "Alabama",
+                "cities": [
+                    "Abbeville",
+                    "Abernant"
+                ]
+            },
+            {
+                "name": "Alaska",
+                "cities": [
+                    "Adak",
+                    "Kwethluk"
+                ]
+            },
+            {
+                "name": "Arizona",
+                "cities": [
+                    "Agua Linda",
+                    "Meadview",
+                    "Mennonite Mission"
+                ]
+            },
+            {
+                "name": "California",
+                "cities": [
+                    "Los Altos Hills",
+                    "Los Angeles",
+                    "Los Angeles Dodgers"
+                ]
+            },
+            {
+                "name": "Arkansas",
+                "cities": [
+                    "Abbott",
+                    "Aberdeen",
+                    "Lanty"
+                ]
+            },
+            {
+                "name": "Hawaii",
+                "cities": [
+                    "Ahualoa",
+                    "Kekaha",
+                    "Kilauea",
+                    "Bancorp"
+                ]
+            },
+            {
+                "name": "Louisiana",
+                "cities": [
+                    "Abbeville",
+                    "Lafayette",
+                    "Lafitte",
+                    "Lacassine"
+                ]
+            },
+            {
+                "name": "New York",
+                "cities": [
+                    "Macomb",
+                    "Macys Finance",
+                    "Accord",
+                    "Adams Center"
+                ]
+            }
+        ]
+    }
+]
