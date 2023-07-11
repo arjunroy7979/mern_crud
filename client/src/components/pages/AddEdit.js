@@ -32,7 +32,7 @@ const AddEdit = () => {
     }, [id])
 
     const getsingleUser = async (id) => {
-        const response = await axios.get(`http://127.0.0.8:8080/user/${id}`);
+        const response = await axios.get(`https://mern-crud-api-eta.vercel.app/user/${id}`);
         if (response.status === 200) {
             setUser({ ...response.data[0] })
         }
@@ -41,7 +41,7 @@ const AddEdit = () => {
 
     const addUser = async (data) => {
         console.log(data)
-        const response = await axios.post('http://127.0.0.8:8080/user', data);
+        const response = await axios.post('https://mern-crud-api-eta.vercel.app/user', data);
         if (response.status === 200) {
             toast.success(response.data)
             // setTimeout(() => {
@@ -52,7 +52,7 @@ const AddEdit = () => {
 
     const updateUser = async (data, id) => {
         console.log(data)
-        const response = await axios.put(`http://127.0.0.8:8080/user/${id}`, data);
+        const response = await axios.put(`https://mern-crud-api-eta.vercel.app/user/${id}`, data);
         if (response.status === 200) {
             toast.success(response.data)
         }
