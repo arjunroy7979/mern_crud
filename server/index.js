@@ -11,7 +11,7 @@ app.use(express.json())
 app.use(express.urlencoded())
 app.use(cors(
     {
-        origin:["https://mern-crud-omega.vercel.app"],
+        origin:["https://mern-crud-client-alpha.vercel.app"],
         method:["POST","GET"],
         credentials:true
     }
