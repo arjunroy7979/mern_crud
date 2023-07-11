@@ -11,7 +11,7 @@ const Home = () => {
     }, []);
 
     const getUsers = async () => {
-        const response = await axios.get('http://127.0.0.8:8080/users');
+        const response = await axios.get('https://mern-crud-api-eta.vercel.app/users');
         if (response.status === 200) {
             setData(response.data);
         }
@@ -19,7 +19,7 @@ const Home = () => {
 
     const onDeleteUser = async (_id) => {
         if (window.confirm('Are you sure you want to delete that user data')) {
-            const response = await axios.delete(`http://127.0.0.8:8080/user/${_id}`);
+            const response = await axios.delete(`https://mern-crud-api-eta.vercel.app/user/${_id}`);
             if (response.status === 200) {
                 toast.success(response.data);
                 getUsers();
